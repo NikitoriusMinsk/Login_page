@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="functions.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div id="forms">
+                <form id="form">
+                    <div id="left_block">
+                        Логин: <br>
+                        Пароль: <br>
+                        Подтвердите пароль: <br>
+                        E-mail: <br>
+                        Имя: 
+                    </div>
+                    <div id="right_block">
+                        <input type="text" id="login"> <br>
+                        <input type="password" id="password"> <br>
+                        <input type="password" id="confirm"> <br>
+                        <input type="text" id="email"> <br>
+                        <input type="text" id="name"> <br>
+                    </div>
+                    <input id="submit_btn_r" type="button" name="registerbtn" value="Зарегистрироваться">
+                </form>
+                <form action="CRUD.php" method="POST" id="form">
+                    <div id="left_block">
+                        Логин: <br>
+                        Пароль: <br>
+                    </div>
+                    <div id="right_block">
+                        <input type="text" id="login_"> <br>
+                        <input type="password" id="password_"> <br>
+                    </div>
+                    <input id="submit_btn" type="button" name="loginbtn" value="Войти">
+                </form>
+            </div>
+            <div id="user"><p id="username"></p><input id="logout" type="button" value="Выйти"></div>
+        </div>
+    </body>
+</html>

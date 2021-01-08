@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    background-color: #1B2838;
+}
+
+#content {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 270px;
+    margin-right: 270px;
+    font-family: Calibri;
+    color: #94B6A6;
+    font-size: 24px;
+}
+
+#left_block {
+    position: relative;
+    float: left;
+    display: inline;
+    margin-left: 280px;
+}
+
+#right_block {
+    position: relative;
+    float: right;
+    display: inline;
+    margin-right: 280px;
+}
+
+#right_block input{
+    position: relative;
+    font-size: 20px;
+}
+
+#submit_btn_r {
+    position: relative;
+    margin-left: 40%;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+#submit_btn {
+    position: relative;
+    margin-left: 40%;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+#forms {
+    background-color: #16202D;
+    font-family: Calibri;
+    padding-bottom: 30px;
+}
+
+#form {
+    position: relative;
+    padding-top: 30px;
+}
